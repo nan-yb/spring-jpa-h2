@@ -23,7 +23,7 @@ public class PersonServiceImpl implements PersonService {
     }
 
 	@Override
-	public void savePerson(Person person) {
+	public void saveSamplePerson(Person person) {
         personRepository.save(new Person("Hans", "Meiser"));
         personRepository.save(new Person("Peter", "Lustig"));
 	}
