@@ -1,10 +1,11 @@
 package com.nan.sample.domain;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-/**
- * Created by mbart on 28.02.2016.
- */
 @Entity
 @Table(name = "person")
 public class Person {

@@ -22,11 +22,10 @@ public class PersonServiceImpl implements PersonService {
         return personRepository.findAll();
     }
 
-	@Override
-	public void saveSamplePerson(Person person) {
+    @Override
+    public void saveSamplePerson(Person person) {
         personRepository.save(new Person("Hans", "Meiser"));
         personRepository.save(new Person("Peter", "Lustig"));
-	}
+    }
 
-    
 }
